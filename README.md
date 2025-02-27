@@ -55,9 +55,11 @@ A well written README should include; Project title and a brief description of w
 A README contributes to effective collaboration in the following ways:-
 -Clear setup instructions reduces confussionmaing quicker onboarding of teams
 -Well documented repository will have reduced issues thereby reducing unnecessary questions.
--
+-With cler instructions,README encourages more people to contribute and get invOlved in reporting issues and suggesting improvemens.
 
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
+A public reposiory is accessible to everyone while a private repoitory is only accessible to invited users.
+A public repository i 
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
