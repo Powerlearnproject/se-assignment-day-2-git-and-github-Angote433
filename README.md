@@ -110,6 +110,53 @@ Branching process.
 
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
+Pull requests   facilitate code review and collaboration  in Github workflow. 
+They allow developers to propose, review, and discuss changes before merging them into the main branch.
+
+How Pull Requests Facilitate Code Review and Collaboration
+Encourage Team Collaboration – Tehy enable multiple developers to review and contribute to the same codebase, resulting to code quality and consistency.
+Structured Code Review Process – Reviewers can leave comments, request changes, and approve Pull Requests, leading to well-tested and refined code before merging.
+Version Control & Change Tracking – GitHub tracks all changes, making it easy to compare, discuss, and revert if necessary.
+Documentation of Changes – Pull Requests provide a historical record of changes, making it easier to track who made what changes and why.
+
+Process of creating and merging a pull request.
+1. Create a New Branch
+-Navigate to your repository by typing 'cd your-repo'
+-Pull the latest changes by typing  'git pull origin main'
+-Create and switch to a new branch:
+git checkout -b feature-branch
+2. Make Changes and Commit
+Edit files as needed.
+Stage the changes:
+git add .
+Commit the changes with a meaningful message:
+git commit -m "Add new feature"
+3. Push the Branch to Remote
+git push origin feature-branch
+4. Create a Pull Request .
+Go to the repository on GitHub.
+Navigate to the Pull Requests tab.
+Click New Pull Request.
+Select the base branch  and your feature branch.
+Add a title, description, and any relevant details.
+Click Create Pull Request.
+6. Code Review & Approval
+Team members review the code.
+They may request changes.
+You address feedback by making further commits and pushing them to the same branch.
+
+7. Merge the Pull Request
+Once approved, click Merge Pull Request on the platform.
+Choose Merge commit, Squash and merge, or Rebase and merge based on project preferences.
+
+8. Delete the Feature Branch if it is no longer needed.
+-Locally, delete the branch by  the command below
+git branch -d feature-branch
+- Pull the latest changes by typing the command below.
+git pull origin main`
+
+
+
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 -Forking a repository on GitHub means creating a copy of someone else’s repository under your own GitHub account alllowing you to freely experiment, modify, and contribute to the project without affecting the original repository.
